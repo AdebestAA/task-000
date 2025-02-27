@@ -25,8 +25,8 @@ const areaOfInterest:typeOption[] = [
     }
 ]
 const formcontainerDiv = "flex flex-col py-2"
-const labelStyle = "flex items-center font-semibold py-[2px] text-[0.9rem]"
-const stylesForSelect = "px-[2px] border-borderColor rounded-sm py-[6px] border-[1px]"
+const labelStyle = "flex items-center font-semibold py-[2px] "
+const stylesForSelect = "px-[2px] border-borderColor rounded-sm py-[6px] border-[1px] "
 
 const Form = () => {
 
@@ -41,7 +41,7 @@ const Form = () => {
         <select name="" id="" className={stylesForSelect}>
             {institutionNames.map((item,_)=>{
                 return (
-                    <option className=" text-[0.5rem]" key={item.id} value={item.value}>{item.value}</option>
+                    <option className=" " key={item.id} value={item.value}>{item.value}</option>
                 )
             })}
         </select>
@@ -81,7 +81,7 @@ const Form = () => {
 
 {/* Footer */}
 <footer className="flex justify-between items-center">
-    <span className="font-bold text-[0.9rem]">Skip for now</span>
+    <span className="font-bold ">Skip for now</span>
     <button className="bg-primary text-white sm:w-[222px] w-[150px] sm:h-[48px] h-[38px] rounded-lg">Continue </button>
 </footer>
         </form>

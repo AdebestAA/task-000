@@ -5,7 +5,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='font-manrope flex sm:justify-center sm:items-center bg-lightBlue py-16 min-h-screen'>
+    <div className='text-[0.8rem] font-manrope flex sm:justify-center sm:items-center bg-lightBlue py-16 min-h-screen'>
 
 <article className='bg-white sm:w-[50%] px-6 py-8 '>
     {/* PROGRESS BAR */}
@@ -28,7 +28,7 @@ const page = () => {
 
 <section className='bg-lightBlue flex items-center rounded-md px-4 py-[5px] mb-8'>
     <img src="/gift.svg" alt="gift" className='w-[0.85rem]' />
-<span className='text-primary font-bold text-[0.8rem]'>Your Reward for this step is 200 WESPoints</span>
+<span className='text-primary font-bold '>Your Reward for this step is 200 WESPoints</span>
 </section>
 <Form/>
 
