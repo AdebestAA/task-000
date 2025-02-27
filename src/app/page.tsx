@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-   <div>
-  <p>  frontend-task</p>
-<Link href={"/register"}>register</Link>
+   <div >
+  <h1 className="font-bold text-xl">Links to Pages</h1>
+<Link href={"/register"} className="hover:text-gray text-primary">register</Link>
 <br />
-<Link href={"/congratulations"}>congratulation</Link>
+<Link href={"/congratulations"} className="hover:text-gray text-primary">congratulation</Link>
    </div>
   );
 }
