@@ -20,7 +20,8 @@ export default {
         gray:"#7F8184",
         borderColor:"#EAEAEB",
         red:"#E31B23",
-        lightBlue:"#E6EEF7"
+        lightBlue:"#E6EEF7",
+        green:"#5EC26A"
       },
       screens: {
         'xxs':'330px',  

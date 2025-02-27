@@ -7,7 +7,7 @@ export default function Home() {
   <p>  frontend-task</p>
 <Link href={"/register"}>register</Link>
 <br />
-<Link href={"/congratulation"}>congratulation</Link>
+<Link href={"/congratulations"}>congratulation</Link>
    </div>
   );
 }
