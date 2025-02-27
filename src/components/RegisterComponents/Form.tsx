@@ -82,7 +82,7 @@ const Form = () => {
 {/* Footer */}
 <footer className="flex justify-between items-center">
     <span className="font-bold ">Skip for now</span>
-    <button className="bg-primary text-white sm:w-[222px] w-[150px] sm:h-[48px] h-[38px] rounded-lg">Continue </button>
+    <button className="bg-primary text-white  sm:w-[30%] w-[35%] sm:h-[48px] h-[35px] rounded-lg">Continue </button>
 </footer>
         </form>
     </>
